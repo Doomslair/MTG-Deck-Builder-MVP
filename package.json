@@ -1,0 +1,28 @@
+{
+  "name": "mtg-deck-builder-mvp",
+  "version": "1.0.0",
+  "description": "MVP project to help me practice React and Javascript",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doomslair/MTG-Deck-Builder-MVP.git"
+  },
+  "keywords": [
+    "mtg",
+    "mvp",
+    "react",
+    "javascript"
+  ],
+  "author": "Jeffrey Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doomslair/MTG-Deck-Builder-MVP/issues"
+  },
+  "homepage": "https://github.com/Doomslair/MTG-Deck-Builder-MVP#readme"
+}
