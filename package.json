@@ -24,5 +24,19 @@
   "bugs": {
     "url": "https://github.com/Doomslair/MTG-Deck-Builder-MVP/issues"
   },
-  "homepage": "https://github.com/Doomslair/MTG-Deck-Builder-MVP#readme"
+  "homepage": "https://github.com/Doomslair/MTG-Deck-Builder-MVP#readme",
+  "dependencies": {
+    "@mui/material": "^5.2.8",
+    "bootstrap": "^5.1.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "jest": "^27.4.7",
+    "mtgsdk": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "pactum": "^3.1.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
+  }
 }
