@@ -41,3 +41,7 @@ pids
 
 # Output of 'npm pack'
 *.tgz
+
+# Additional Ignores
+.next
+.eslintrc.js
