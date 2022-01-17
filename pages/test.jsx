@@ -5,12 +5,13 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 
 const TestingSuite = () => {
+  const array = ['one', 'two', 'three'];
   return (
     <div>
       <ButtonGroup variant="text" aria-label="text button group">
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
+        {array.map((text) => {
+          return (<Button>{text}</Button>);
+        })}
       </ButtonGroup>
     </div>
   );
