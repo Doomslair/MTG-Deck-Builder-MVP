@@ -5,12 +5,12 @@ import Link from 'next/link';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Deck from '../components/Deck';
+import img from '../img/MTG CARD 1.png';
 
 const HomePage = () => {
-  const deckArr = [{ name: 'a deck', description: 'a description' }, { name: 'a deck', description: 'a description' }, { name: 'a deck', description: 'a description' }];
+  const deckArr = [{ name: 'a deck', description: 'a description', image: img }, { name: 'a deck', description: 'a description', image: img }, { name: 'a deck', description: 'a description', image: img }];
   return (
     <div>
-      <div>Welcome to Next.js!</div>
       <div>
         <Link href="/test">
           <Button>Go To Testing Suite</Button>
