@@ -1,6 +1,6 @@
 <!-- Add badges here -->
 
-## *See [Project Board](https://github.com/Doomslair/MTG-Deck-Builder-MVP/edit/main/README.md) for current project status.*
+## *See [Project Board](https://trello.com/b/qbGfuacA/mtg-mvp) for current project status.*
 
 ## About The Project
 This project is a deckbuilding application to allow users to manage MTG decks and have meaningful tests that give actionable information. This is a refinement of my MTG-MVP project where I built this in two days, but of course, the code was rough, so I am rewriting it in a cleaner, and more stylistically pleasing way.
