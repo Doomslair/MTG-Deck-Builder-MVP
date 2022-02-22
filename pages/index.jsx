@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Deck from '../components/Deck';
 import img from '../img/MTG CARD 1.png';
+import AddDeck from '../components/AddDeck';
 
 const HomePage = () => {
   const deckArr = [{ name: 'a deck', description: 'a description', image: img }, { name: 'a deck', description: 'a description', image: img }, { name: 'a deck', description: 'a description', image: img }];
@@ -25,6 +26,9 @@ const HomePage = () => {
               </Grid>
             );
           })}
+          <Grid item xs>
+            <AddDeck />
+          </Grid>
         </Grid>
       </div>
     </div>
