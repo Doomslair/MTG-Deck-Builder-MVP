@@ -4,7 +4,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
-const AddDeck = ({ deck }) => {
+const AddDeck = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
       <div className="viewport" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
