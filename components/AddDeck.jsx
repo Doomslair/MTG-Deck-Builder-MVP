@@ -6,9 +6,9 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const AddDeck = ({ deck }) => {
   return (
-    <div>
-      <div className="viewport">
-        <FontAwesomeIcon icon={faPlus} style={{ maxWidth: '100%'}} />
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+      <div className="viewport" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <FontAwesomeIcon icon={faPlus} />
         <p>Add a Deck</p>
       </div>
     </div>

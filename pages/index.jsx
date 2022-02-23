@@ -18,15 +18,15 @@ const HomePage = () => {
         </Link>
       </div>
       <div>
-        <Grid container spaceing={8} justifyContent="space-between">
+        <Grid container spaceing={8} justifyContent="space-between" flexWrap="wrap">
           {deckArr.map((deck) => {
             return (
-              <Grid item xs>
+              <Grid sx={{ display: 'flex', flexDirection: 'column' }} className="deckContent" item xs>
                 <Deck deck={deck} />
               </Grid>
             );
           })}
-          <Grid item xs>
+          <Grid sx={{ display: 'flex', flexDirection: 'column' }} className="deckContent" item xs>
             <AddDeck />
           </Grid>
         </Grid>
