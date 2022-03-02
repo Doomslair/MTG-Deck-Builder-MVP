@@ -1,13 +1,15 @@
-import React from 'react';
+/* eslint-disable arrow-body-style */
+/* eslint-disable react/function-component-definition */
+import { React, useState } from 'react';
+import { Dialog, DialogTitle } from '@mui/material';
 
-const DeckModal = () => {
+const DeckModal = ({ open, setOpen, setClose }) => {
   return (
-    <div style={{ maxHeigth: '100%' }}>
-      <div className="viewport">
-        <img src={deck.image.src} alt="Deck of many Things" style={{ maxHeight: '100%', maxWidth: '100%' }} />
-        <h4>{deck.name}</h4>
-        <p>{deck.description}</p>
-      </div>
+    <div>
+      <Dialog open={open} onClose={setClose}>
+        <DialogTitle>Haiya</DialogTitle>
+        <div>Hello</div>
+      </Dialog>
     </div>
   );
 };
